@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
 
 );
 function fillInBlanks() {
-    console.log('function got called');
+
     const nounInput = // pulling input
         document.getElementById('nounInput'); // tring to listen to whats in noun input
     const nounOutput = // output text to story
@@ -17,25 +17,25 @@ function fillInBlanks() {
     noun.textContent = // refering to the span id ... is line 14
         nounOutput; // what is being displayed in DOM
 
-    const nounInput1 = document.getElementById('nounInput1');
-    const nounOutput1 = nounInput1.value;
-    noun1.textContent = nounOutput1;
+    const noun1Input = document.getElementById('noun1Input');
+    const noun1Output = noun1Input.value;
+    noun1.textContent = noun1Output;
 
-    const pluralNounInput1 = document.getElementById('pluralNounInput1');
-    const pluralNounOutput1 = pluralNounInput1.value;
-    pluralNoun1.textContent = pluralNounOutput1;
+    const pluralNoun1Input = document.getElementById('pluralNoun1Input');
+    const pluralNoun1Output = pluralNoun1Input.value;
+    pluralNoun1.textContent = pluralNoun1Output;
 
-    const pluralNounInput2 = document.getElementById('pluralNounInput2');
-    const pluralNounOutput2 = pluralNounInput2.value;
-    pluralNoun2.textContent = pluralNounOutput2;
+    const pluralNoun2Input = document.getElementById('pluralNoun2Input');
+    const pluralNoun2Output = pluralNoun2Input.value;
+    pluralNoun2.textContent = pluralNoun2Output;
 
-    const pluralNounInput3 = document.getElementById('pluralNounInput3');
-    const pluralNounOutput3 = pluralNounInput3.value;
-    pluralNoun3.textContent = pluralNounOutput3;
+    const pluralNoun3Input = document.getElementById('pluralNoun3Input');
+    const pluralNoun3Output = pluralNoun3Input.value;
+    pluralNoun3.textContent = pluralNoun3Output;
 
-    const pluralNounInput4 = document.getElementById('pluralNounInput4');
-    const pluralNounOutput4 = pluralNounInput4.value;
-    pluralNoun4.textContent = pluralNounOutput4;
+    const pluralNoun4Input = document.getElementById('pluralNoun4Input');
+    const pluralNoun4Output = pluralNoun4Input.value;
+    pluralNoun4.textContent = pluralNoun4Output;
 
     const verbInput = document.getElementById('verbInput');
     const verbOutput = verbInput.value;
