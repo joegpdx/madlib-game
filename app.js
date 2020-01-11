@@ -1,5 +1,7 @@
 console.log('hello');
 
+const button = document.getElementById('button');
+
 button.addEventListener('click', () => {
     fillInBlanks();
 }
@@ -7,7 +9,7 @@ button.addEventListener('click', () => {
 
 );
 function fillInBlanks() {
-
+    console.log('function got called');
     const nounInput = // pulling input
         document.getElementById('nounInput'); // tring to listen to whats in noun input
     const nounOutput = // output text to story
