@@ -7,7 +7,7 @@ const pluralNoun1 = document.getElementById('pluralNoun1');
 const pluralNoun2 = document.getElementById('pluralNoun2');
 const pluralNoun3 = document.getElementById('pluralNoun3');
 const pluralNoun4 = document.getElementById('pluralNoun4');
-const verb = document.getElementById('Verb');
+const verb = document.getElementById('verb');
 const ingVerb = document.getElementById('ingVerb');
 
 
